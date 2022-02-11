@@ -1,7 +1,7 @@
 # What it is?
 Simple json type database for python3!
 
-#How to install?
+# How to install?
 ```
 pip install "git+https://github.com/IAmSinix/SinixDB"
 ```
