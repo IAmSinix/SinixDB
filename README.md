@@ -1,2 +1,3 @@
-# SinixDB
-json database
+# What it is?
+Simple json database, fast!
+
