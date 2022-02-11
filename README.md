@@ -8,7 +8,7 @@ pip install "git+https://github.com/IAmSinix/SinixDB"
 
 # How to use?
 Example:
-```
+```python
 from SinixDB import SinixDB
 
 db = SinixDB(data.json)
