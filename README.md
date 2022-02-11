@@ -13,7 +13,7 @@ import SinixDB
 
 db = SinixDB.SinixDB("data.json")
 
-name = input("enter your name")
+name = input("Enter your name")
 age = input("Enter your age")
 gender = input("Enter your gender")
 
@@ -24,6 +24,10 @@ db.set(
         "gender": gender
     }
 )
+
+data = db.get(key=name)
+print(f"{name} age: {data["age"]}, gender: {data["gender"]}")
 db.save()
+quit()
 ```
 
