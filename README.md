@@ -9,8 +9,21 @@ pip install "git+https://github.com/IAmSinix/SinixDB"
 # How to use?
 Example:
 ```python
-from SinixDB import SinixDB
+import SinixDB
 
-db = SinixDB(data.json)
+db = SinixDB.SinixDB("data.json")
+
+name = input("enter your name")
+age = input("Enter your age")
+gender = input("Enter your gender")
+
+db.set(
+    key=name,
+    data={
+        "age": age,
+        "gender": gender
+    }
+)
+db.save()
 ```
 
