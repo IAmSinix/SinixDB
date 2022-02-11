@@ -1,0 +1,2 @@
+# SinixDB
+json database
