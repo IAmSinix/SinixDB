@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
+from io import open
+
+def read(filename):
+    with open(filename, encoding='utf-8') as file:
+        return file.read()
 
 setup(name='SinixDB',
       version='1.1',
