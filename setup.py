@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 
-        return file.read()
-
 setup(name='SinixDB',
       version='1.1',
       description='Simple json type database for python3!',
