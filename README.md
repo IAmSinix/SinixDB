@@ -1,6 +1,9 @@
 # What it is?
 Simple json type database for python3!
 
+# What about speed?
+The speed is great! All data is stored in RAM until saved.
+
 # How to install?
 ```shell
 pip install "git+https://github.com/IAmSinix/SinixDB"
