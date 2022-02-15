@@ -6,7 +6,8 @@
 
 import SinixDB
 
-db = SinixDB.SinixDB("data.json")
+db = SinixDB.SinixDB()
+db.load("data.json")
 
 name = input("Enter your name >>> ")
 age = input("Enter your age >>> ")
