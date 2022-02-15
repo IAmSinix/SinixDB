@@ -3,7 +3,8 @@ import SinixDB
 import asyncio
 import random
 
-db = SinixDB.AsyncSinixDB("AsyncData.json")
+db = SinixDB.AsyncSinixDB()
+db.load("AsyncData.json")
 
 async def rand():
     return random.randint(0, 1000000000000)
